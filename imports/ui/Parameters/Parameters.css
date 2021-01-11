@@ -1,0 +1,81 @@
+.parameters-view {
+  display: flex;
+  flex-direction: column;
+}
+
+.parameter-edit-container {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  justify-content: space-between;
+}
+
+.parameter-edit-container .ant-select { width: 180px; }
+
+.parameter {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 8px;
+  justify-content: space-between;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.parameter label {
+  display: flex;
+  align-items: center;
+}
+
+.parameter label .parameter-field {
+  font-weight: 200;
+  text-transform: capitalize;
+}
+
+.parameter label .parameter-type  {
+  font-weight: 400;
+  font-size: 12px;
+  color: #969696;
+  text-transform: capitalize;
+}
+
+.parameter span {
+  font-size: 12px;
+  margin: 0px;
+}
+
+.parameters-list {
+  display: flex;
+}
+
+.parameters-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 0px 0px 9px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.parameters-actions label {
+  display: flex;
+  align-items: center;
+}
+
+.subcontext-container {
+  display: flex;
+  border-bottom: 1px solid #e0e0e0;
+  height: 100%;
+}
+
+.subcontext-container button {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 13px;
+  color: #969696;
+}
+
+.parameters-container {
+  border-right: 1px solid #e0e0e0;
+}

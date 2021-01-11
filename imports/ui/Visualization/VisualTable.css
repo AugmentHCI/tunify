@@ -1,0 +1,201 @@
+.VTHeader {
+  position: absolute;
+  transform: rotate(-40deg) skew(50deg);
+  left: 14px;
+  width: 28px;
+  height: 16px;
+  background: #1683e8;
+  overflow: visible;
+  bottom: 0px;
+  cursor: pointer;
+}
+
+.VTHeader h1 {
+  position: absolute;
+  transform: skew(-47deg);
+  overflow: visible;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  left: 13px;
+  width: 150px;
+  height: 16px;
+  font-weight: 400;
+  font-size: 10px;
+  z-index: 1;
+  background: #1683e8;
+  display: flex;
+  align-items: center;
+  color: white;
+  margin: 0;
+  cursor: pointer;
+}
+
+.ReactVirtualized__Grid__innerScrollContainer {
+  overflow: visible !important;
+}
+
+.VTFirstColumnSubcontext {
+  display: flex;
+  border-bottom: 2px solid #ffffff;
+  flex-direction: column;
+  padding-right: 4px;
+  align-items: flex-end;
+  line-height: 1;
+  height: 100%;
+  justify-content: center;
+  background: #f4f4f4;
+  cursor: pointer;
+}
+
+.VTFirstColumnSubcontext button {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.VTFirstColumn {
+  display: flex;
+  border-bottom: 2px solid #ffffff;
+  flex-direction: column;
+  padding-right: 4px;
+  align-items: flex-end;
+  line-height: 1;
+  height: 100%;
+  justify-content: center;
+  background: #fafafa;
+  cursor: pointer;
+}
+
+.VTFirstColumn button {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.VTFirstColumn-vertical {
+  display: flex;
+  border-bottom: 2px solid #ffffff;
+  flex-direction: column;
+  padding-right: 4px;
+  align-items: flex-end;
+  line-height: 1;
+  height: 100%;
+  justify-content: center;
+  background: #fbfbfb;
+  cursor: pointer;
+}
+
+.VTFirstColumn .title {
+  color: #1683e8;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+.VTFirstColumn .subtitle {
+  font-size: 11px;
+  font-weight: 400;
+  color: #969696;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+.VTDatapoint {
+  width: 16px;
+  height: 16px;
+  border-radius: 22px;
+  cursor: pointer;
+}
+
+.VTDatapoint:hover {
+  box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.2);
+}
+
+.VTDatapointContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.vt-barchart-out {
+  height: 16px;
+  border: 1px dashed #424242;
+  border-left: none;
+  display: flex;
+  align-items: center;
+  background: white;
+}
+
+.vt-barchart-in {
+  height: 8px;
+}
+
+.VTBarchart { cursor: pointer; }
+
+/* .VTHeader:hover { background: red;} */
+.VTFirstColumn:hover { background: #f6fbff; }
+.VTBarchart:hover    { box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.2); }
+
+.VTBarchartContainer {
+  display: flex;
+  align-items: center;
+  border-left: 1px solid #e0e0e0;
+}
+
+.selected {
+  background-color: red !important;
+}
+
+.vert-barchart {
+  display: flex;
+  align-items: flex-end;
+  border-bottom: 1px solid #e0e0e0;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.vert-barchart .vt-barchart-out {
+  border: 1px dashed #424242;
+  border-bottom: none;
+  display: flex;
+  align-items: flex-end;
+  background: white;
+  justify-content: center;
+}
+
+.vert-barchart .vt-barchart-in {
+  width: 70%;
+}
+
+
+.VTBarchart-vertical {
+  width: 70%;
+}
+
+.VTHeader-vertical {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 24px;
+  background: #fafafa;
+  border-bottom: 2px solid white;
+}
+
+.VTHeader-vertical h1 {
+  font-weight: 400;
+  font-size: 11px;
+  z-index: 1;
+  color: #424242;
+  margin: 0;
+  cursor: pointer;
+}
+
+.VTHeader-vertical h1:hover {
+  color: #1890ff;
+}

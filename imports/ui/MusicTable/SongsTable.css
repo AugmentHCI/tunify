@@ -1,0 +1,24 @@
+.songsTable {
+  height: 400px;
+}
+
+.vg-header {
+  background: #1890ff;
+  color: white;
+  font-weight: 600;
+  font-variant: all-petite-caps;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 18px;
+}
+
+.vg-odd {
+  background: #ebebeb;
+}
+
+.vg-cell {
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+}

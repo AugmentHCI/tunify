@@ -1,0 +1,32 @@
+{
+  "name": "tunify",
+  "private": true,
+  "scripts": {
+    "start": "MONGO_URL=mongodb+srv://admin:dGyaasOCIEkvOxK3@cluster0.9kdtw.mongodb.net/meteor?retryWrites=true&w=majority meteor run",
+    "test": "meteor test --once --driver-package meteortesting:mocha",
+    "test-app": "TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha",
+    "visualize": "meteor --production --extra-packages bundle-visualizer"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.11.2",
+    "antd": "^4.8.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-root-slash-import": "^1.1.0",
+    "chart.js": "^2.9.4",
+    "meteor-node-stubs": "^1.0.1",
+    "react": "^16.13.1",
+    "react-chartjs-2": "^2.11.1",
+    "react-dom": "^16.13.1",
+    "react-dropzone": "^11.2.4",
+    "react-selectable": "^2.1.1",
+    "react-virtualized": "^9.22.2",
+    "react-virtualized-tree": "^3.4.1"
+  },
+  "meteor": {
+    "mainModule": {
+      "client": "client/main.jsx",
+      "server": "server/main.js"
+    },
+    "testModule": "tests/main.js"
+  }
+}

@@ -1,0 +1,112 @@
+#react-target {
+    display: flex;
+}
+
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  height: 100%;
+  overflow: hidden;
+}
+
+.main-app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.app-details-drawer {
+  transition: width 0.5s ease-in-out;
+  min-width: 40px;
+  max-width: 560px;
+  background: #fafafa;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #e0e0e0;
+}
+
+h1 {
+  color: #424242;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.app-toolbar {
+  display: flex;
+  column-gap: 16px;
+  padding: 4px;
+  background: #1a2021;
+  align-items: center;
+}
+
+.app-toolbar img {
+  vertical-align: middle;
+  border-style: none;
+  height: 40px;
+  margin: 8px;
+}
+
+.rules-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+  border-bottom: 1px solid #e0e0e0;
+  max-width: 100%;
+  overflow: hidden;
+  transition: height 0.5s ease-in;
+}
+
+.database-container {
+  height: 100%;
+  width: 320px;
+  border-right: 1px solid #e0e0e0;
+}
+
+.drag-drop-container {
+  width: 200px;
+  margin: 8px;
+}
+
+.drawer-contents {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  padding: 16px;
+}
+
+.drawer-nav {
+  width: 100%;
+  background: white;
+  border-bottom: 1px solid #e0e0e0;
+  height: 69px;
+  display: flex;
+  align-items: center;
+}
+
+.flip-button {
+  position: absolute;
+  top: 8px;
+  z-index: 1000;
+  left: 8px;
+}
+
+.collapse-bar {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.collapse-bar button {
+  display: flex;
+  align-items: center;
+  font-size:  16px;
+  font-weight: 300;
+  width:  100%;
+  height: 32px;
+  background: #fafafa;
+}

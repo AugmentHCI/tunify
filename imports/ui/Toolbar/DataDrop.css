@@ -1,0 +1,50 @@
+
+.dd-content-new {
+  height: 48px;
+  margin-top: 8px;
+}
+
+.dd-content-new p {
+  height: 48px !important;
+}
+
+.dd-content div {
+  width: 100%;
+  text-align: center;
+}
+
+.dd-content p {
+  margin: 0;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  color: #afafaf;
+}
+
+.dd-content:hover {
+  background: #e8e8e8;
+  color: #424242;
+}
+
+.file-details {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 8px;
+}
+
+.file-details h1 {
+  font-size: 32px;
+  margin: 0;
+  color: #424242;
+  line-height: 1;
+}
+
+.file-subtitle {
+  font-size: 14px;
+  color: #b7b7b7;
+}
